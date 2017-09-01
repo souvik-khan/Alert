@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">Alert</string>
+
+    <string name="sign_up_toolbar">Sign Up</string>
+
+    <string name="add_ice_toolbar">Add ICE</string>
+
+    <string name="edit_ice_toolbar">Edit ICE</string>
+
+    <string name="blank_activity_toast">Double tap to exit</string>
+
+    <string name="ice_description">Add your ICE </string>
+
+    <string name="distress_msg_pt_1">sent a DISTRESS message. Her location</string>
+
+    <string name="distress_msg_pt_2">Taxi no.</string>
+
+    <string name="intro_msg_pt_1">will send sms alert to your emergency contacts when you are in distress. You can also send your taxi number or a short custom message to help know better. The</string>
+
+    <string name="intro_msg_pt_2">button will act like a broadcast message button in nick of time.</string>
+
+    <string name="distress_btn">Distress</string>
+
+    <string name="declare_text_pt_1">Allow permissions to enable</string>
+
+    <string name="declare_text_pt_2">gather your location information and send sms.</string>
+
+    <string-array name="city_list">
+        <item>Ahmedabad</item>
+        <item>Asansol</item>
+        <item>Bengaluru</item>
+        <item>Chennai</item>
+        <item>Durgapur</item>
+        <item>Hyderabad</item>
+        <item>Kolkata</item>
+        <item>Mumbai</item>
+        <item>New Delhi</item>
+        <item>Siliguri</item>
+    </string-array>
+
+</resources>
+

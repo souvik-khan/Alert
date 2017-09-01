@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorDarkTone"
+        android:padding="15dp" >
+
+        <Button
+            android:id="@+id/distress_btn"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/distress_btn"
+            android:textSize="17sp"
+            android:background="@drawable/button_type_1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:layout_marginRight="15dp"
+                android:text="Taxi number" />
+
+            <EditText
+                android:id="@+id/taxi_no"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:inputType="number"
+                android:background="@drawable/input_box_1"
+                android:backgroundTint="@color/white" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/fast_comment"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:hint=" Short message"
+            android:gravity="top"
+            android:background="@drawable/input_box_1"
+            android:backgroundTint="@color/white" />
+
+        <TextView
+            android:id="@+id/msg_status"
+            android:layout_width="280dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="55dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
