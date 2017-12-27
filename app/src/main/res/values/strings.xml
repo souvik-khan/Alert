@@ -20,7 +20,7 @@
 
     <string name="intro_msg_pt_2">button will act like a broadcast message button in nick of time.</string>
 
-    <string name="distress_btn">Distress</string>
+    <string name="distress_btn">Alert</string>
 
     <string name="declare_text_pt_1">Allow permissions to enable</string>
 

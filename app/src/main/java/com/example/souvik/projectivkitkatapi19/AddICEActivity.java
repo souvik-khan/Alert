@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 public class AddICEActivity extends AppCompatActivity {
 
-    EditText ice_1, ice_2, ice_3;
+    EditText ice_1;
     Button add_ice_done_btn;
 
     @Override
@@ -20,8 +20,6 @@ public class AddICEActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_ice);
 
         ice_1 = (EditText) findViewById(R.id.ice_1);
-        ice_2 = (EditText) findViewById(R.id.ice_2);
-        ice_3 = (EditText) findViewById(R.id.ice_3);
         add_ice_done_btn = (Button) findViewById(R.id.add_ice_done_btn);
 
         add_ice_done_btn.setOnClickListener(new View.OnClickListener() {
@@ -31,8 +29,6 @@ public class AddICEActivity extends AppCompatActivity {
                 SharedPreferences sh_obj = getSharedPreferences("modWSb1", Context.MODE_PRIVATE);
                 SharedPreferences.Editor sh_editor = sh_obj.edit();
                 sh_editor.putString("client_ice_1", ice_1.getText().toString());
-                sh_editor.putString("client_ice_2", ice_2.getText().toString());
-                sh_editor.putString("client_ice_3", ice_3.getText().toString());
                 sh_editor.putString("app_status", "1");
                 sh_editor.apply();
 
