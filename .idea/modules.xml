@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Alert.iml" filepath="$PROJECT_DIR$/Alert.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ProjectIV(KitkatAPI19).iml" filepath="$PROJECT_DIR$/ProjectIV(KitkatAPI19).iml" />
+      <module fileurl="file://G:\ProgramsInstalled\Android\Projects\Alert\ProjectIV(KitkatAPI19).iml" filepath="G:\ProgramsInstalled\Android\Projects\Alert\ProjectIV(KitkatAPI19).iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
